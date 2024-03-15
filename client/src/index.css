@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.drawer-content, .drawer-side {
+  max-height: 91vh;
+  overflow-y: auto;
+}
